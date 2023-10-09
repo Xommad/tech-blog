@@ -50,4 +50,24 @@
         padding-left: 1em;
         padding-right: 1em;
     }
+
+    .headbackhomediv {
+        color: white;
+        background: #462521;
+        width: 6em;
+        border-radius: 10px;
+        padding: 0.3em 1em 0.3em 1em;
+        text-align: center;
+    }
+
+    .headbackhomediv:hover {
+        background: white;
+        color: black;
+    }
+
+    .headbackhometext {
+        text-decoration: none;
+        font-family: instrumentsans;
+        align-self: center;
+    }
 }
