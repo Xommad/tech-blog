@@ -1,0 +1,9 @@
+@font-face {
+    font-family: build;
+    src: url(fonts/build.ttf);
+}
+
+@font-face {
+    font-family: instrumentsans;
+    src: url(fonts/InstrumentSans-Regular.otf);
+}

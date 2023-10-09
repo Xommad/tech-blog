@@ -1,0 +1,103 @@
+@import url(fonts.css);
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background-color: #A8A49B;
+        margin: 0;
+        padding-bottom: 1em;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+    }
+
+    a {
+        color: #BFC8AD;
+        text-decoration: none;
+    }
+
+    .background-line1 {
+        background-color: #463F1A;
+        width: 780px;
+        height: 30px;
+        transform: rotate(-33.33deg);
+        position: fixed;
+        top: 35%;
+        left: -50%;
+        z-index: -1;
+    }
+
+    .background-line2 {
+        background-color: #463F1A;
+        width: 780px;
+        height: 30px;
+        transform: rotate(-33.33deg);
+        position: fixed;
+        top: 41%;
+        left: -50%;
+        z-index: -1;
+    }
+
+    .title-la-pavilion {
+        font-family: build;
+        font-size: 50px;
+        font-weight: normal;
+        color: #392A16;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    .whatsthisdiv {
+        color: white;
+        background: #462521;
+        width: 18em;
+        order: 2;
+        border-radius: 10px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .whatsthish1 {
+        font-family: build;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+    }
+
+    .whatsthistext {
+        font-size: 16px;
+        font-family: instrumentsans;
+    }
+
+    .article1 {
+        color: white;
+        background: #462521;
+        width: 18em;
+        order: 2;
+        border-radius: 10px;
+        padding-left: 1em;
+        padding-right: 1em;
+        cursor: pointer;
+        transition: ease-in-out .1s;
+    }
+
+    .article1:hover {
+        background: white;
+        color: black;
+    }
+
+    .article1h1 {
+        font-family: build;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+        font-weight: lighter;
+    }
+
+    .article1p1 {
+        font-size: 16px;
+        font-family: instrumentsans;
+    }
+}
