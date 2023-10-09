@@ -4,6 +4,20 @@
 
     body {
         background-color: #F4ECD6;
+        color: #392A16;
+        margin: 0;
+        padding-bottom: 1em;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+    }
+    
+    body.dark-mode {
+        background-color: #222222;
+        color: #ffffff;
         margin: 0;
         padding-bottom: 1em;
         height: 100%;
@@ -32,15 +46,10 @@
         width: 100%;
     }
 
-    .article-welcometolapaviliondiv {
-        
-    }
-
     .title-welcome-to-la-pavilion {
         font-family: build;
         font-size: 50px;
         font-weight: normal;
-        color: #392A16;
         padding-left: 0.3em;
         padding-right: 0.3em;
     }
@@ -49,6 +58,14 @@
         font-family: instrumentsans;
         padding-left: 1em;
         padding-right: 1em;
+    }
+
+    .credittext {
+        font-family: instrumentsans;
+        font-size: 12px;
+        font-style: italic;
+        padding-left: 1.3em;
+        padding-right: 1.3em;
     }
 
     .headbackhomediv {
